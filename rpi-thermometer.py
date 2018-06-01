@@ -4,8 +4,8 @@ import asyncio
 import bot_utils
 
 client = discord.Client()
-temp_threshold_low 	= 65.0
-temp_threshold_high = 75.0
+temp_threshold_low 	= 60.0
+temp_threshold_high = 85.0
 channel_id = bot_utils.get_channel_id()
 bot_token = bot_utils.get_bot_token()
 
